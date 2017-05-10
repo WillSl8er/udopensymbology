@@ -1,0 +1,160 @@
+html{
+	width: 100%;
+}
+
+
+#nav {
+    list-style: none;
+    font-weight: bold;
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background: #000000;
+		height: 40px;
+}
+
+#nav:after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+#nav li {
+    margin: 0px;
+		cursor: pointer;
+		cursor: hand;
+}
+
+#nav li a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#left a{
+	  float: left;
+}
+#right a{
+	  float: right;
+}
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+		font: Arial;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+}
+#allSorters {
+	height: 10px;
+}
+
+
+#RadioButton, #CheckBox {
+	font-size: 16px;
+}
+
+#OpenFIGIBox {
+		display: none;
+		margin-left: 30px;
+		font-size: 12px;
+}
+#SORNum, #SORNum_Label{
+		display: none;
+}
+
+#GenInfo {
+		font-family:Arial;
+		padding-left:9.5px;
+    margin-top: 20px;
+		margin-left: 20px;
+}
+#GenInfo input, select{
+		margin-left: 50px;
+		margin-bottom: 15px;
+		padding-right: 50px;
+}
+#GenInfo label{
+		display:inline-block;
+    width:155px;
+}
+
+#ConfPage {
+		font-family:Arial;
+		padding-left:9.5px;
+		margin-top: 20px;
+}
+#ConfPage label{
+		display:inline-block;
+		width:200px;
+		margin-bottom: 10px;
+}
+
+#ProgressBar {
+    width: 100%;
+    background-color: grey;
+}
+#Progress {
+    width: 1%;
+    height: 30px;
+    background-color: blue;
+		text-align: center; /* To center it horizontally */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+}
+
+h1{
+	font-size:120%;
+	font-family:Arial;
+	padding-left:9.5px;
+}
+p{
+	font-family:Arial;
+	padding-left:9.5px;
+}
+#admin2{
+	float:right;
+}
+#admin3{
+	text-align:center;
+	clear:right;
+}
+#login{
+    text-align:right;
+}
+
+#home1, #home2 {
+	display:inline-block;
+	padding: 10px;
+}
+#BulkorSingle1{
+	padding-top:10px;
+	padding-left:9.5px;
+}
+#AP1{
+	position:absolute;
+	left:550px;
+}
+#DU1,#UT1,#GF1{
+	position:absolute;
+	font-size: 16px;
+}
+#BDE1,#LIP1,#CT1,#CP1,#RP1{
+	text-align:left;
+	padding-left: 20px;
+}

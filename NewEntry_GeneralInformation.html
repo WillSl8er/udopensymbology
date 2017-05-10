@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	   <meta charset="utf-8">
+     <title>Bloomberg OpenFIGI Client Database</title>
+		 <link rel="stylesheet" href="Style.css">
+     <script type="text/javascript" src="Logout.js"></script>
+	 </head>
+
+   <div id="nav">
+     <ul>
+       <li id="left"><a href="#">Bloomberg OpenFIGI Client Manager</a></li>
+       <li id="right"><a onclick="Logout('newEntry')">Logout</a></li>
+     </ul>
+   </div>
+
+	 <body  onload="getGeneralInformation()">
+  	<h1>General Information:</h1>
+    <hr>
+    <div id="GenInfo">
+       <label>Date Added:</label><input type="date" name="GenInfo"  id="DateAdded" onchange="setGeneralInformation('DateAdded')">
+       <br>
+       <label>Qtr&Yrcompleted:</label>
+          <select id="Quarter" onchange="setGeneralInformation('Quarter')">
+              <option value="">--</option>
+              <option value="Q1">Q1</option>
+              <option value="Q2">Q2</option>
+              <option value="Q3">Q3</option>
+              <option value="Q4">Q4</option>
+          </select>
+          <select id="Year" onchange="setGeneralInformation('Year')">
+              <option value="">--</option>
+          </select>
+       <br>
+       <label>Bloomberg Rep:</label><input type="text" name="GenInfo" id="BloombergRep" onchange="setGeneralInformation('BloombergRep')">
+       <br>
+       <label>Client Name:</label><input type="text" name="GenInfo" id="ClientName" onchange="setGeneralInformation('ClientName')">
+       <br>
+       <label>Client Email Address:</label><input type="email" name="GenInfo" id="ClientEmail" onchange="setGeneralInformation('ClientEmail')">
+       <br>
+       <label>Client Phone #:</label><input type="text" name="GenInfo" id="ClientPhone" onchange="setGeneralInformation('ClientPhone')">
+       <br>
+       <label>Company Name:</label><input type="text" name="GenInfo" id="CompanyName" onchange="setGeneralInformation('CompanyName')">
+       <br>
+       <label>Street Address:</label><input type="text" name="GenInfo" id="Address" onchange="setGeneralInformation('Address')">
+       <br>
+       <label>City:</label><input type="text" id="City" name="GenInfo" onchange="setGeneralInformation('City')">
+       <br>
+       <label>State:</label><input type="text" id="State" name="GenInfo" onchange="setGeneralInformation('State')">
+       <br>
+       <label>Country:</label><select name="GenInfo" id="Country" onchange="setGeneralInformation('Country')">
+        <option value="--">--</option>
+        <option value="Argentina">Argentina</option>
+        <option value="Armenia">Armenia</option>
+        <option value="Australia">Australia</option>
+        <option value="Austria">Austria</option>
+        <option value="Azerbaijan">Azerbaijan</option>
+        <option value="Bahamas">Bahamas</option>
+        <option value="Bahrain">Bahrain</option>
+        <option value="Barbados">Barbados</option>
+        <option value="Belarus">Belarus</option>
+        <option value="Belgium">Belgium</option>
+        <option value="Bermuda">Bermuda</option>
+        <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+        <option value="Brazil">Brazil</option>
+        <option value="British Virgin Islands">British Virgin Islands</option>
+        <option value="Bulgaria">Bulgaria</option>
+        <option value="Cambodia">Cambodia</option>
+        <option value="Canada">Canada</option>
+        <option value="Cayman Islands">Cayman Islands</option>
+        <option value="Chile">Chile</option>
+        <option value="China">China</option>
+        <option value="Colombia">Colombia</option>
+        <option value="Costa Rica">Costa Rica</option>
+        <option value="Croatia">Croatia</option>
+        <option value="Curacao">Curacao</option>
+        <option value="Cyprus">Cyprus</option>
+        <option value="Czech Republic">Czech Republic</option>
+        <option value="Denmark">Denmark</option>
+        <option value="Dubai">Dubai</option>
+        <option value="Ecuador">Ecuador</option>
+        <option value="Egypt">Egypt</option>
+        <option value="England">England</option>
+        <option value="Fiji">Fiji</option>
+        <option value="Finland">Finland</option>
+        <option value="France">France</option>
+        <option value="Germany">Germany</option>
+        <option value="Gibraltar">Gibraltar</option>
+        <option value="Greece">Greece</option>
+        <option value="Grenada">Grenada</option>
+        <option value="Guatemala">Guatemala</option>
+        <option value="Guernsey">Guernsey</option>
+        <option value="Honduras">Honduras</option>
+        <option value="Hong Kong">Hong Kong</option>
+        <option value="Hungary">Hungary</option>
+        <option value="Iceland">Iceland</option>
+        <option value="India">India</option>
+        <option value="Indonesia">Indonesia</option>
+        <option value="Ireland">Ireland</option>
+        <option value="Isle of Man">Isle of Man</option>
+        <option value="Israel">Israel</option>
+        <option value="Italy">Italy</option>
+        <option value="Japan">Japan</option>
+        <option value="Jersey">Jersey</option>
+        <option value="Kazakhstan">Kazakhstan</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Kuwait">Kuwait</option>
+        <option value="Lagos">Lagos</option>
+        <option value="Laos">Laos</option>
+        <option value="Lebanon">Lebanon</option>
+        <option value="Liechtenstein">Liechtenstein</option>
+        <option value="Lithuania">Lithuania</option>
+        <option value="Luxembourg">Luxembourg</option>
+        <option value="Macedonia">Macedonia</option>
+        <option value="Madagascar">Madagascar</option>
+        <option value="Malaysia">Malaysia</option>
+        <option value="Maldives">Maldives</option>
+        <option value="Malta">Malta</option>
+        <option value="Mauritius">Mauritius</option>
+        <option value="Mexico">Mexico</option>
+        <option value="Monaco">Monaco</option>
+        <option value="Mongolia">Mongolia</option>
+        <option value="Montenegro">Montenegro</option>
+        <option value="Morocco">Morocco</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Netherlands">Netherlands</option>
+        <option value="New Zealand">New Zealand</option>
+        <option value="Nicaragua">Nicaragua</option>
+        <option value="Norway">Norway</option>
+        <option value="Oman">Oman</option>
+        <option value="Panama">Panama</option>
+        <option value="Papua New Guinea">Papua New Guinea</option>
+        <option value="Paraguay">Paraguay</option>
+        <option value="Peru">Peru</option>
+        <option value="Philippines">Philippines</option>
+        <option value="Poland">Poland</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Qatar">Qatar</option>
+        <option value="Romania">Romania</option>
+        <option value="Russia">Russia</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        <option value="Scotland">Scotland</option>
+        <option value="Serbia">Serbia</option>
+        <option value="Sierra Leone">Sierra Leone</option>
+        <option value="Singapore">Singapore</option>
+        <option value="Slovakia">Slovakia</option>
+        <option value="Slovenia">Slovenia</option>
+        <option value="South Africa">South Africa</option>
+        <option value="South Korea">South Korea</option>
+        <option value="Spain">Spain</option>
+        <option value="Sri Lanka">Sri Lanka</option>
+        <option value="Sweden">Sweden</option>
+        <option value="Switzerland">Switzerland</option>
+        <option value="Taiwan">Taiwan</option>
+        <option value="Thailand">Thailand</option>
+        <option value="Turkey">Turkey</option>
+        <option value="Turks & Caicos">Turks & Caicos</option>
+        <option value="Ukraine">Ukraine</option>
+        <option value="United Arab Emirates (UAE)">United Arab Emirates (UAE)</option>
+        <option value="United Kingdom (UK)">United Kingdom (UK)</option>
+        <option value="United States of America (USA)">United States of America (USA)</option>
+        <option value="Uruguay">Uruguay</option>
+        <option value="Vietnam">Vietnam</option>
+        <option value=""></option></select>
+       <br>
+       <label>Zip Code:</label><input type="text" name="GenInfo" id="ZipCode" onchange="setGeneralInformation('ZipCode')">
+       <br>
+       <label>Region:</label><select name="GenInfo" id="Region" onchange="setGeneralInformation('Region')">
+        <option value="ASIA_PACIFIC">Asia Pacific</option>
+        <option value="EASTERN_EUROPE">Eastern Europe</option>
+        <option value="LATIN_AMERICA_&_CARIBBEAN">Latin America & Caribbean</option>
+        <option value="MIDDLE_EAST_&_AFRICA">Middle East & Africa</option>
+        <option value="NORTH_AMERICA">North America</option>
+        <option value="WESTERN_EUROPE">Western Europe</option>
+        <option value="NOT_AVAILABLE">--</option>
+        </select>
+       <br>
+       <label>Division:</label><select name="GenInfo" id="Division" onchange="setGeneralInformation('Division')">
+        <option value="--">--</option>
+        <option value="ACCOUNTING">Accounting</option>
+        <option value="BUY_SIDE_ASSET_MANAGER">Buy Side - Asset Manager</option>
+        <option value="BUY_SIDE_COMMERCIAL_BANK">Buy Side - Commercial Bank</option>
+        <option value="BUY_SIDE_CORPORATION">Buy Side - Corporation</option>
+        <option value="BUY_SIDE_HEDGE_FUND">Buy Side - Hedge Fund</option>
+        <option value="BUY_SIDE_INSURANCE">Buy Side - Insurance</option>
+        <option value="COMMODITY_MERCHANT">Commodity Merchant</option>
+        <option value="CONSULTING">Consulting</option>
+        <option value="EDUCATION">Education</option>
+        <option value="CUSTODIAN">Custodian</option>
+        <option value="GOVERNMENT">Government</option>
+        <option value="LEGAL">Legal</option>
+        <option value="OUTSOURCING">Outsourcing</option>
+        <option value="FUND_SERVICE_PROVIDER">Fund Service Provider</option>
+        <option value="RATING_AGENCY">Rate Agency</option>
+        <option value="SELL_SIDE_BROKER_DEALER">Sell Side - Broker-Dealer</option>
+        <option value="SELL_SIDE_AGENCY_BROKER">Sell Side - Agency Broker</option>
+        <option value="SELL_SIDE_CAPITAL_MARKETS">Sell Side - Capital Markets</option>
+        <option value="SELL_SIDE_INTER-DEALER_BROKER">Sell Side - Inter-Dealer Broker</option>
+        <option value="SELL_SIDE_INVESTMENT_BANKING">Sell Side - Investment Banking</option>
+        <option value="SELL_SIDE_PRIME_SERVICES">Sell Side - Prime Services</option>
+        <option value="SELL_SIDE_REGIONAL_BANK">Sell Side - Regional Bank</option>
+        <option value="SELL_SIDE_RESEARCH">Sell Side - Research</option>
+        <option value="SELL_SIDE_RETAIL_BROKER">Sell Side - Retail Broker</option>
+        <option value="TECHNOLOGY">Technology</option>
+        </select>
+       <br>
+       <label>Notes:</label>
+       <br>
+       <textarea name="GenInfo" id="Notes" rows="3" cols="56" onchange="setGeneralInformation('Notes')"></textarea>
+       <br>
+       <br>
+    </div>
+    <button type="button" onclick="window.location.href='NewEntry_DataUsage.html'">Back</button>
+    <button type="button" onclick="window.location.href='NewEntry_ConfirmationPage.html'">Next</button>
+   </body>
+
+   <script type = "text/javascript">
+      //On any value change, takes elements name and stores it in the corresponding sessionStorage variable
+      function setGeneralInformation(element) {
+        var input = document.getElementById(element).value;
+        sessionStorage.setItem(element, input);
+      }
+
+      //Runs on page load, populates fields with previously entered values, and sets the options for the year select box
+      function getGeneralInformation() {
+
+        //Populates year select box with every year from 2000 to the current
+        var currentTime = new Date();
+        var year = currentTime.getFullYear();
+        var selectYear = document.getElementById('Year');
+        var newYear;
+        for (i = 2000; i <= year; i++) {
+          newYear = document.createElement('option');
+          newYear.value = i;
+          newYear.innerHTML = i;
+          selectYear.appendChild(newYear);
+        }
+
+        //Cycles through every field, populating it with an exisitng sessionStorage variable
+        var fields = document.getElementsByName("GenInfo");
+        for (i = 0; i < fields.length; i++){
+          fields[i].value = sessionStorage.getItem(fields[i].id);
+          }
+      }
+
+  </script>
+
+</html>

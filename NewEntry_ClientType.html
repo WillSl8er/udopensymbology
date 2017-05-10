@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	   <meta charset="utf-8">
+     <title>Bloomberg OpenFIGI Client Database</title>
+		 <link rel="stylesheet" href="Style.css">
+     <script type="text/javascript" src="Logout.js"></script>
+	 </head>
+
+   <div id="nav">
+     <ul>
+       <li id="left"><a href="#">Bloomberg OpenFIGI Client Manager</a></li>
+       <li id="right"><a onclick="Logout('newEntry')">Logout</a></li>
+     </ul>
+   </div>
+
+	 <body onload="getClientType()">
+  	 <h1>Select a Client Type:</h1>
+     <hr>
+  		 <form>
+  	     <p id="RadioButton">
+           <input type="radio" name="ClientType" value="EXCHANGE" onchange="setClientType()"> Exchange<br>
+           <input type="radio" name="ClientType" value="THIRD_PARTY" onchange="setClientType()"> Third Party<br>
+           <input type="radio" name="ClientType" value="REGULATOR" onchange="setClientType()"> Regulator<br>
+           <input type="radio" name="ClientType" value="TRUSTEE" onchange="setClientType()"> Trustee<br>
+           <input type="radio" name="ClientType" value="OTHER" onchange="setClientType()"> Other<br>
+  			 </p>
+  			 <br>
+  		 </form>
+       <button type="button" onclick="window.location.href='NewEntry_EntryType.html'">Back</button>
+       <button type="button" onclick="window.location.href='NewEntry_UserType.html'">Next</button>
+	 </body>
+
+
+   <script type = "text/javascript">
+      function setClientType() {
+        var clientType_selected;
+        var clientType_options = document.getElementsByName("ClientType"); //Array of all options
+
+        //Cycles through optiosn and finds the one that is selected
+        for (i = 0; i < clientType_options.length; i++) {
+          if (clientType_options[i].checked) {
+            clientType_selected = clientType_options[i].value;
+          }
+        }
+        //Stores selected option in sessionStorage
+        sessionStorage.clientType = clientType_selected;
+      }
+
+      //Gets currently stored selected option and checks the corresponding box on page load
+      function getClientType(){
+        var clientType_selected = sessionStorage.getItem("clientType"); //Currently selected option
+        var clientType_options = document.getElementsByName("ClientType");//Array of all options
+
+        //Cycles through options and checks the correct one
+        for(i = 0; i < clientType_options.length; i++) {
+          if (clientType_options[i].value == clientType_selected) {
+            clientType_options[i].checked = true;
+          }
+        }
+      }
+   </script>
+
+</html>

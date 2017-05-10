@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	   <meta charset="utf-8">
+     <title>Bloomberg OpenFIGI Client Database</title>
+		 <link rel="stylesheet" href="Style.css">
+     <script type="text/javascript" src="Logout.js"></script>
+	 </head>
+
+   <div id="nav">
+     <ul>
+       <li id="left"><a href="#">Bloomberg OpenFIGI Client Manager</a></li>
+       <li id="right"><a onclick="Logout('newEntry')">Logout</a></li>
+     </ul>
+   </div>
+
+	 <body onload="getUserType()">
+  	 <h1>Select User Type(s):</h1>
+     <hr>
+	   <div id="UT1">
+    	 <form>
+  	     <p id="CheckBox">
+      			<input type="checkbox" name="UserType" value="TERMINAL_CLIENT" onchange="setUserType()">Terminal Client<br>
+      			<input type="checkbox" name="UserType" value="DL_BACKOFFICE" onchange="setUserType()">DL Backoffice<br>
+      			<input type="checkbox" name="UserType" value = "DL_PER_SECURITY" onchange="setUserType()">DL Per Security<br>
+      			<input type="checkbox" name="UserType" value = "BPIPE_BPOD" onchange="setUserType()">BPipe/BPod<br>
+      			<input type="checkbox" name="UserType" value = "DEDICATED_FEED" onchange="setUserType()">Dedicated Feed<br>
+      			<input type="checkbox" name="UserType" value = "SOR" id="SOR" onchange="setUserType()">SOR
+            <label id="SORNum_Label">#: </label><input type="text" id="SORNum" onchange="setSOR()"><br>
+            <input type="checkbox" name="UserType" id="OpenFIGI" value = "OPENFIGI_COM" onchange="setUserType()">OpenFIGI.com<br>
+              <div id="OpenFIGIBox" onchange="setOpenFIGI()">
+                <select id="OpenFIGIBox_input" multiple>
+                  <option value="API_KEY">API Key</option>
+                  <option value="FUNDS">Funds</option>
+                  <option value="DERIVATIVES">Derivatives</option>
+                  <option value="FIXED_INCOME">Fixed Income</option>
+                  <option value="SEARCH_FUNCTIONALITY_ONLY">Search Functionality Only</option>
+                </select>
+              </div>
+            <br>
+  	     </p>
+         <button type="button" onclick="window.location.href='NewEntry_ClientType.html'">Back</button>
+         <button type="button" onclick="window.location.href='NewEntry_DataUsage.html'">Next</button>
+    		 </form>
+     </div>
+   </body>
+
+   <script type="text/javascript">
+
+      function setUserType(){
+        var userType_selected = [];
+        var userType_options = document.getElementsByName("UserType"); //Array of options
+        //Finds which option is selected
+        for (i = 0; i < userType_options.length; i++) {
+          if (userType_options[i].checked){
+            userType_selected.push(userType_options[i].value);
+          }
+        }
+        //Stores selected option in sessionStorage
+        sessionStorage.userType = JSON.stringify(userType_selected);
+
+        //Sets visibility of additional fields for SOR and OpenFIGI.com
+        if (document.getElementById("OpenFIGI").checked == false) {
+          document.getElementById("OpenFIGIBox").style.display = "none";
+          sessionStorage.OpenFIGI = "";
+          var options = document.getElementById("OpenFIGIBox_input").options;
+          for (i = 0; i < options.length; i++) {
+            options[i].selected = false;
+          }
+        } else {
+          document.getElementById("OpenFIGIBox").style.display = "inline";
+        }
+        if (document.getElementById("SOR").checked == false) {
+          document.getElementById("SORNum").style.display = "none";
+          document.getElementById("SORNum_Label").style.display = "none";
+          document.getElementById("SORNum").value = "";
+          sessionStorage.SORNum = "";
+        } else {
+          document.getElementById("SORNum").style.display = "inline";
+          document.getElementById("SORNum_Label").style.display = "inline";
+        }
+      }
+
+      //Stores SOR# in sessionStorage
+      function setSOR(){
+        sessionStorage.SORNum = document.getElementById("SORNum").value;
+      }
+
+      //Stores OpenFIGI.com types in sessionStorage
+      function setOpenFIGI(){
+        var selectBox = document.getElementById("OpenFIGIBox_input");
+        var OpenFIGI = []
+        var options = selectBox.options; //array of all OpenFIGI.com options
+        var opt;
+        //Cycles through options ands those that are selected to an array
+        for (var i = 0; i < options.length; i++) {
+          opt = options[i];
+          if (opt.selected) {
+            OpenFIGI.push(opt.value);
+          }
+        }
+        //Stores array in sessionStorage
+        sessionStorage.OpenFIGI = JSON.stringify(OpenFIGI);
+      }
+
+      //Pulls and selects selected options on page load
+      function getUserType(){
+        var userType_selected = JSON.parse(sessionStorage.getItem("userType"));
+        var userType_options = document.getElementsByName("UserType");
+
+        //Cycles through usertype checkboxes and checks those that are selected in sessionStorage
+        for (iSelected = 0; iSelected < userType_selected.length; iSelected++) {
+          for (iOption = 0; iOption < userType_options.length; iOption++) {
+            if (userType_selected[iSelected] == userType_options[iOption].value) {
+              userType_options[iOption].checked = true;
+            }
+          }
+        }
+
+        //Cycles through OpenFIGI.com options and selects those that are selected
+        if (document.getElementById("OpenFIGI").checked){
+          document.getElementById("OpenFIGIBox").style.display = "inline";
+          var OpenFIGI_selected = JSON.parse(sessionStorage.getItem("OpenFIGI"));
+          var OpenFIGI_options = document.getElementById("OpenFIGIBox_input").options;
+          for (iOption = 0; iOption < OpenFIGI_options.length; iOption++){
+            for (iSelected = 0; iSelected < OpenFIGI_selected.length; iSelected++){
+              if (OpenFIGI_options[iOption].value == OpenFIGI_selected[iSelected]){
+                OpenFIGI_options[iOption].selected = true;
+              }
+            }
+          }
+        }
+
+        //Adds previously entered SOR number to field
+        if (document.getElementById("SOR").checked){
+          document.getElementById("SORNum").style.display = "inline";
+          document.getElementById("SORNum_Label").style.display = "inline";
+          document.getElementById("SORNum").value = sessionStorage.SORNum;
+        }
+      }
+   </script>
+
+</html>

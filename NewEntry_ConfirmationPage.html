@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	   <meta charset="utf-8">
+     <title>Bloomberg OpenFIGI Client Database</title>
+		 <link rel="stylesheet" href="Style.css">
+     <script type="text/javascript" src="Logout.js"></script>
+	 </head>
+
+   <div id="nav">
+       <ul>
+         <li id="left"><a href="#">Bloomberg OpenFIGI Client Manager</a></li>
+         <li id="right"><a onclick="Logout('newEntry')">Logout</a></li>
+       </ul>
+   </div>
+
+	 <body onload="createConfirmation()">
+     <h1>Confirmation Page</h1>
+     <hr>
+     <div id="ConfPage">
+       <label>Date Added:</label><text id="conf_dateAdded"></text><br>
+       <label>Qtr&Yr Completed:</label><text id="conf_completed"></text><br>
+       <label>Client Type:</label><text id="conf_clientType"></text><br>
+       <label>User Type:</label><text id="conf_userType"></text><br>
+       <label>SOR#:</label><text id="conf_SORNum"></text><br>
+       <label>OpenFIGI.com Usage:</label><text id="conf_OpenFIGI"></text><br>
+       <label>Data Usage:</label><text id="conf_dataUsage"></text><br>
+       <label>Bloomberg Rep: </label><text id="conf_BloombergRep"></text><br>
+       <label>Client Name:</label><text id="conf_ClientName"></text><br>
+       <label>Client Email:</label><text id="conf_ClientEmail"></text><br>
+       <label>Client Phone #:</label><text id="conf_ClientPhone"></text><br>
+       <label>Company Name:</label><text id="conf_CompanyName"></text><br>
+       <label>Street Address:</label><text id="conf_Address"></text><br>
+       <label>City:</label><text id="conf_City"></text><br>
+       <label>State:</label><text id="conf_State"></text><br>
+       <label>Country:</label><text id="conf_Country"></text><br>
+       <label>Zip Code:</label><text id="conf_ZipCode"></text><br>
+       <label>Region:</label><text id="conf_Region"></text><br>
+       <label>Division:</label><text id="conf_Division"></text><br>
+       <label>Notes:</label><text id="conf_Notes"></text><br>
+       <label>Latest Update:</label><text id="conf_latest"></text>
+     </div>
+
+	 </body>
+
+   <script>
+
+      //Populates values on confirmation page with sessionStorage variables collected form new entry forms
+      function createConfirmation() {
+
+        //Creates variables for each value
+        
+        var clientType = checkUndefined(sessionStorage.getItem("clientType"));
+        var userType = checkUndefined(JSON.parse(sessionStorage.getItem("userType")));
+        var SORnumber = checkUndefined(sessionStorage.SORNum);
+        var openFIGI = "";
+        if (sessionStorage.getItem("OpenFIGI") != "") {
+          openFIGI = JSON.parse(sessionStorage.getItem("OpenFIGI"));
+        }
+        var dataUsage = "";
+        if (sessionStorage.getItem("dataUsage") != "") {
+          dataUSAGE = JSON.parse(sessionStorage.getItem("dataUsage"));
+        }
+        var bloombergREP = checkUndefined(sessionStorage.BloombergRep);
+        var clientName = checkUndefined(sessionStorage.ClientName);
+        var clientEmail = checkUndefined(sessionStorage.ClientEmail);
+        var clientPhone = checkUndefined(sessionStorage.ClientPhone);
+        var companyName = checkUndefined(sessionStorage.CompanyName);
+        var address = checkUndefined(sessionStorage.Address);
+        var city = checkUndefined(sessionStorage.City);
+        var state = checkUndefined(sessionStorage.State);
+        var country = checkUndefined(sessionStorage.Country);
+        var zipCode = checkUndefined(sessionStorage.ZipCode);
+        var region = checkUndefined(sessionStorage.Region);
+        var division = checkUndefined(sessionStorage.Division);
+        var notes = checkUndefined(sessionStorage.Notes);
+        var dateAdded= checkUndefined(sessionStorage.DateAdded);
+        var qtr_Yrcompleted= checkUndefined(sessionStorage.Quarter) + " " + checkUndefined(sessionStorage.Year);
+
+        //Populates HTML elements with variable values
+        document.getElementById('conf_clientType').innerHTML = clientType;
+        document.getElementById('conf_userType').innerHTML = userType;
+        document.getElementById('conf_SORNum').innerHTML = SORnumber;
+        document.getElementById('conf_OpenFIGI').innerHTML = openFIGI;
+        document.getElementById('conf_dataUsage').innerHTML = dataUSAGE;
+        document.getElementById("conf_BloombergRep").innerHTML = bloombergREP;
+        document.getElementById("conf_ClientName").innerHTML = clientName;
+        document.getElementById("conf_ClientEmail").innerHTML = clientEmail;
+        document.getElementById("conf_ClientPhone").innerHTML = clientPhone;
+        document.getElementById("conf_CompanyName").innerHTML = companyName;
+        document.getElementById("conf_Address").innerHTML = address;
+        document.getElementById("conf_City").innerHTML = city;
+        document.getElementById("conf_State").innerHTML = state;
+        document.getElementById("conf_Country").innerHTML = country;
+        document.getElementById("conf_ZipCode").innerHTML = zipCode;
+        document.getElementById("conf_Region").innerHTML = region;
+        document.getElementById("conf_Division").innerHTML = division;
+        document.getElementById("conf_Notes").innerHTML = notes;
+        document.getElementById("conf_dateAdded").innerHTML = dateAdded;
+        document.getElementById("conf_completed").innerHTML = qtr_Yrcompleted;
+        var utc = new Date().toJSON().slice(0,10).replace(/-/g,'/');
+        document.getElementById("conf_latest").value=utc;
+
+       }
+
+       //Replaces the text 'undefined' with "" for variables with no value
+       function checkUndefined(input) {
+         if (input == null) {
+           return "";
+         }
+         else {
+           return input;
+         }
+       }
+
+       //Creates JSON object from variables after they are confirmed to be correct
+       function postJSON(option){
+
+         //Checks whether 'Confirm' or 'Cancel' button was clicked
+         if (option == "confirm") {
+
+           //Creates variables for each value
+           var clientType = checkUndefined(sessionStorage.getItem("clientType"));
+           var userType = checkUndefined(JSON.parse(sessionStorage.getItem("userType")));
+           var SORnumber = checkUndefined(sessionStorage.SORNum);
+           var openFIGI = "";
+           if (sessionStorage.getItem("OpenFIGI") != "") {
+             openFIGI = JSON.parse(sessionStorage.getItem("OpenFIGI"));
+           }
+           var dataUsage = "";
+           if (sessionStorage.getItem("dataUsage") != "") {
+             dataUSAGE = JSON.parse(sessionStorage.getItem("dataUsage"));
+           }
+           var bloombergREP = checkUndefined(sessionStorage.BloombergRep);
+           var clientName = checkUndefined(sessionStorage.ClientName);
+           var clientEmail = checkUndefined(sessionStorage.ClientEmail);
+           var clientPhone = checkUndefined(sessionStorage.ClientPhone);
+           var companyName = checkUndefined(sessionStorage.CompanyName);
+           var address = checkUndefined(sessionStorage.Address);
+           var city = checkUndefined(sessionStorage.City);
+           var state = checkUndefined(sessionStorage.State);
+           var country = checkUndefined(sessionStorage.Country);
+           var zipCode = checkUndefined(sessionStorage.ZipCode);
+           var region = checkUndefined(sessionStorage.Region);
+           var division = checkUndefined(sessionStorage.Division);
+           var notes = checkUndefined(sessionStorage.Notes);
+           var dateAdded = checkUndefined(sessionStorage.DateAdded);
+           var qtr_Yrcompleted = checkUndefined(sessionStorage.Quarter) + " " + checkUndefined(sessionStorage.Year);
+
+           //Populates newEntry JSON object
+           var newEntry = {
+             "divisionName": division,
+             "usertypeName": userType,
+             "datausageName": dataUSAGE,
+             "clienttypeName": clientType,
+             "regionName": region,
+             "dateAdded": dateAdded,
+             "qtr&YrCompleted": qtr_Yrcompleted,
+             "companyName": companyName,
+             "address": address,
+             "city": city,
+             "state": state,
+             "countryName": country,
+             "zipcode": zipCode,
+             "contactName": clientName,
+             "email": clientEmail,
+             "phone": clientPhone,
+             "bloombergRep": bloombergREP,
+             "sORNumber": SORnumber,
+             "notes": notes
+          }
+
+          //Adds new entry to JSON database
+          var tempDB = JSON.parse(sessionStorage.tempDB);
+          tempDB.push(newEntry);
+          sessionStorage.tempDB = JSON.stringify(tempDB);
+
+        }
+
+          //Clears sessionStorage for next entry
+          sessionStorage.removeItem("clientType");
+          sessionStorage.removeItem("userType");
+          sessionStorage.removeItem("SORNum");
+          sessionStorage.removeItem("OpenFIGI");
+          sessionStorage.removeItem("dataUsage");
+          sessionStorage.removeItem("BloombergRep");
+          sessionStorage.removeItem("ClientName");
+          sessionStorage.removeItem("ClientEmail");
+          sessionStorage.removeItem("ClientPhone");
+          sessionStorage.removeItem("CompanyName");
+          sessionStorage.removeItem("Address");
+          sessionStorage.removeItem("City");
+          sessionStorage.removeItem("Country");
+          sessionStorage.removeItem("ZipCode");
+          sessionStorage.removeItem("Region");
+          sessionStorage.removeItem("Division");
+          sessionStorage.removeItem("Notes");
+          sessionStorage.removeItem("DateAdded");
+          sessionStorage.removeItem("Quarter");
+          sessionStorage.removeItem("Year");
+
+          window.location.href="Home.html";
+
+          //* convert the javascript array to JSON format
+          //* need code connect to the database
+      }
+   </script>
+
+   <button type="button" onclick = "window.location.href='NewEntry_GeneralInformation.html'">Back</button>
+   <button type="button" onclick = "postJSON('confirm')" >Confirm and Return Home</button>
+   <button type="button" onclick = "postJSON('cancel')" >Cancel</button>
+
+</html>

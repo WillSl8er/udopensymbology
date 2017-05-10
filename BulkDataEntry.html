@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	    <meta charset="utf-8">
+      <title>Bloomberg OpenFIGI Client Database</title>
+		  <link rel="stylesheet" href="Style.css">
+      <style>
+          #heading { font-size: x-large; font-weight: bold; }
+          .text { width: 99%; height: 200px; }
+          .small { font-size: small; }
+      </style>
+	</head>
+
+  <div id="nav">
+      <ul>
+        <li id="left"><a href="#">Bloomberg OpenFIGI Client Manager</a></li>
+        <li id="right"><a href="index.html">Logout</a></li>
+      </ul>
+  </div>
+
+	<body>
+   <hr>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   <p id="heading">Bulk Entry</p>
+    <hr/>
+   <p><a href="sample.csv" download="sample.csv">Download CSV Template</a></p> 
+   <p>Paste Your CSV Here:</p>
+   <textarea id="csv" class="text"></textarea>
+   <br/>
+   <button id="convert">Convert to JSON</button>
+     &nbsp;&nbsp;
+   <textarea id="json" class="text"></textarea>
+	 <button id="upload">Upload</button>
+   <button type="button" onclick = "window.location.href='Home.html'">Back to Home</button>
+
+
+ <script>
+//convert CSV to array
+ function CSVToArray(strData, strDelimiter) {
+    strDelimiter = (strDelimiter || ",");
+    var objPattern = new RegExp((
+    // Delimiters.
+    "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
+    // Quoted fields.
+    "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+    // Standard fields.
+    "([^\"\\" + strDelimiter + "\\r\\n]*))"), "gi");
+    var arrData = [[]];
+    var arrMatches = null;
+    while (arrMatches = objPattern.exec(strData)) {
+        var strMatchedDelimiter = arrMatches[1];
+        if (strMatchedDelimiter.length && (strMatchedDelimiter != strDelimiter)) {
+           arrData.push([]);
+        }
+        if (arrMatches[2]) {
+           var strMatchedValue = arrMatches[2].replace(
+            new RegExp("\"\"", "g"), "\"");
+        } else {
+            var strMatchedValue = arrMatches[3];
+        }
+        arrData[arrData.length - 1].push(strMatchedValue);
+    }
+    return (arrData);
+}
+//convert CSV to json
+
+function CSV2JSON(csv, output) {
+    var array = CSVToArray(csv);
+    var objArray = [];
+    for (var i = 1; i < array.length; i++) {
+        objArray[i - 1] = {};
+        for (var k = 0; k < array[0].length && k < array[i].length; k++) {
+            var key = array[0][k];
+            objArray[i - 1][key] = array[i][k]
+        }
+    }
+ 
+
+    var json = JSON.stringify(objArray);
+    var str = json.replace(/},/g, "},\r\n");
+
+    return str;
+}
+
+//covert csv to json
+$("#convert").click(function() {
+    var csv = $("#csv").val();
+    var json = CSV2JSON(csv);
+    $("#json").val(json);
+});
+$("#upload").click(function() {
+
+     //put the code here to pass json to DB
+     var csv = $("#csv").val();
+     var array = CSVToArray(csv);
+     for (var i = 1; i < array.length; i++) {
+                for (var k = 0; k < array[0].length && k < array[i].length; k++) {
+                var key = array[0][k];
+                sessionStorage.setItem(key,array[i][k]);
+            }
+    //create json for each line
+    var newEntry = {
+             "divisionName": sessionStorage.divisionName,
+             "usertypeName": sessionStorage.usertypeName,
+             "datausageName": sessionStorage.datausageName,
+             "clienttypeName": sessionStorage.clienttypeName,
+             "regionName": sessionStorage.regionName,
+             "dateAdded": sessionStorage.dateAdded,
+             "qtr&YrCompleted": sessionStorage.qtr_YrCompleted,
+             "companyName": sessionStorage.companyName,
+             "address": sessionStorage.address,
+             "city": sessionStorage.city,
+             "state": sessionStorage.state,
+             "countryName": sessionStorage.countryName,
+             "zipcode": sessionStorage.zipcode,
+             "contactName": sessionStorage.contactName,
+             "email": sessionStorage.email,
+             "phone": sessionStorage.phone,
+             "bloombergRep": sessionStorage.bloombergRep,
+             "sORNumber": sessionStorage.sORNumber,
+             "notes": sessionStorage.notes
+          }
+//pass the new entry to tempDB
+    var tempDB = JSON.parse(sessionStorage.tempDB);
+    tempDB.push(newEntry);
+    sessionStorage.tempDB = JSON.stringify(tempDB);
+
+    }
+
+});
+</script>
+  </body>
+</html>

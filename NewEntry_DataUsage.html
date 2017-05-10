@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	   <meta charset="utf-8">
+     <title>Bloomberg OpenFIGI Client Database</title>
+		 <link rel="stylesheet" href="Style.css">
+     <script type="text/javascript" src="Logout.js"></script>
+	 </head>
+
+   <div id="nav">
+       <ul>
+         <li id="left"><a href="#">Bloomberg OpenFIGI Client Manager</a></li>
+         <li id="right"><a onclick="Logout('newEntry')">Logout</a></li>
+       </ul>
+   </div>
+
+	 <body onload="getDataUsage()">
+  	 <h1>Select Data Usage:</h1>
+     <hr>
+	   <div id="DU1">
+  	   <p>
+    			<input type="checkbox" name="DataUsage" value="STORE_AS_REFERENCE_DATA" onchange="setDataUsage()">Store as Reference Data<br>
+    			<input type="checkbox" name="DataUsage" value="MAP_CONTENT_FROM_MULTIPLE_VENDORS" onchange="setDataUsage()">Map Content from Multiple Vendors<br>
+    			<input type="checkbox" name="DataUsage" value="MGMT_OF_MULTIPLE_SECURITY_MASTERS"onchange="setDataUsage()">Mgmt of Multiple Security Masters<br>
+    			<input type="checkbox" name="DataUsage" value="DISPLAY_ON_WEB_SITE" onchange="setDataUsage()">Display on Web Site<br>
+    			<input type="checkbox" name="DataUsage" value="REDISTRIBUTION_OF_FIGI" onchange="setDataUsage()">Redistribution of FIGI<br>
+    			<input type="checkbox" name="DataUsage" value="REQUEST_DATA" onchange="setDataUsage()">Request Data<br>
+    			<input type="checkbox" name="DataUsage" value="REGULATION" onchange="setDataUsage()">Regulation<br>
+    			<input type="checkbox" name="DataUsage" value="AVAILABLE_TO_ALL_USERS" onchange="setDataUsage()">Available to ALL Users<br>
+    			<input type="checkbox" name="DataUsage" value="AVAILABLE_TO_USERS_UPON_REQUEST" onchange="setDataUsage()">Available to Users Upon Request<br>
+  	   </p>
+       <button type="button" onclick="window.location.href='NewEntry_UserType.html'">Back</button>
+       <button type="button" onclick="window.location.href='NewEntry_GeneralInformation.html'">Next</button>
+     </div>
+   </body>
+
+   <script type = "text/javascript">
+     function setDataUsage(){
+       var dataUsage_selected = [];
+       var dataUsage_options = document.getElementsByName("DataUsage"); //Array of all options
+
+       //Adds all selected options ot an array
+       for (i = 0; i < dataUsage_options.length; i++) {
+         if (dataUsage_options[i].checked) {
+           dataUsage_selected.push(dataUsage_options[i].value);
+         }
+       }
+       //Adds array to sessionStorage
+       sessionStorage.dataUsage = JSON.stringify(dataUsage_selected);
+     }
+
+     function getDataUsage(){
+       var dataUsage_selected = JSON.parse(sessionStorage.getItem("dataUsage"));//Array of selected options
+       var dataUsage_options = document.getElementsByName("DataUsage");//Array of all options
+
+       //Cycles through options and checks those that are selected on page load
+       for (iSelected = 0; iSelected < dataUsage_selected.length; iSelected++) {
+         for (iOption = 0; iOption < dataUsage_options.length; iOption++) {
+           if (dataUsage_selected[iSelected] == dataUsage_options[iOption].value) {
+             dataUsage_options[iOption].checked = true;
+           }
+         }
+       }
+     }
+   </script>
+
+
+</html>

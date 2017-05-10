@@ -1,0 +1,328 @@
+"id","dateAdded","qtr&Yrcompleted","companyName","divisionName","usertypeName","datausageName","openFIGI","clienttypeName","address","city","state","countryName","zipcode","regionName","contactName","email","phone","bloombergRep","SORNumber","notes","latest_update"
+1,"0000-00-00","2014Q4","Twitterwire","TECHNOLOGY","OPENFIGI.COM-SEARCH_FUNCTIONALITY_ONLY","REDISTRIBUTION_OF_FIGI","","REGULATOR","95815 Welch Trail","Dallas","Texas","United States",39374,"LATIN_AMERICA_&_CARIBBEAN","Lois Cooper","aburton0@artisteer.com","1-(214)378-0793","Andrea Burton",446248,"Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",""
+2,"0000-00-00","2015Q1","Aibox","BUY_SIDE-ASSET_MANAGER","DEDICATED_FEED","REQUEST_DATA","","EXCHANGE","333 Cascade Alley","Washington","District of Columbia","United States",22381,"WESTERN_EUROPE","Diane Brooks","hbowman1@delicious.com","1-(202)785-9133","Harry Bowman",994166,"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",""
+3,"0000-00-00","2016Q4","Zoomcast","FUND_SERVICE_PROVIDER","DL_BACKOFFICE","MAP_CONTENT_FROM_MULTIPLE_VENDORS","","REGULATOR","662 Carpenter Road","Daytona Beach","Florida","United States",26876,"NORTH_AMERICA","Kathleen Russell","amartinez2@acquirethisname.com","1-(386)419-8895","Alan Martinez",811070,"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",""
+4,"0000-00-00","2016Q1","Realmix","OUTSOURCING","BPIPE/BPOD","MGMT_OF_MULTIPLE_SECURITY_MASTERS","","EXCHANGE","31979 Center Junction","San Francisco","California","United States",17674,"WESTERN_EUROPE","Martha Watson","smurphy3@buzzfeed.com","1-(415)289-3792","Susan Murphy",672748,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",""
+5,"0000-00-00","2016Q1","Pixoboo","BUY_SIDE-HEDGE_FUND","OPENFIGI.COM-SEARCH_FUNCTIONALITY_ONLY","STORE_AS_REFERENCE_DATA","","EXCHANGE","17 Pleasure Place","Pittsburgh","Pennsylvania","United States",63169,"NOT_AVAILABLE","Peter Nguyen","jtorres4@spotify.com","1-(412)609-4593","Johnny Torres",609149,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",""
+6,"0000-00-00","2016Q1","Digitube","OUTSOURCING","OPENFIGI.COM-FIXED_INCOME","REDISTRIBUTION_OF_FIGI","","TRUSTEE","98024 Glacier Hill Center","Hartford","Connecticut","United States",14454,"LATIN_AMERICA_&_CARIBBEAN","Alice Weaver","jarnold5@devhub.com","1-(860)320-3121","Judith Arnold",445971,"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",""
+7,"0000-00-00","2015Q2","Voonder","LEGAL","NA","AVAILABLE_TO_USERS_UPON_REQUEST","","THIRD_PARTY","81 Caliangt Crossing","Lincoln","Nebraska","United States",57611,"NORTH_AMERICA","Antonio Howard","eramirez6@ask.com","1-(402)797-9206","Earl Ramirez",745707,"Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",""
+8,"0000-00-00","2016Q3","Gabvine","OUTSOURCING","OPENFIGI.COM-DERIVATIVES","REQUEST_DATA","","REGULATOR","5120 Anhalt Way","Chattanooga","Tennessee","United States",82133,"NOT_AVAILABLE","Anthony Greene","ecole7@bloglines.com","1-(423)619-8942","Elizabeth Cole",116867,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.",""
+9,"0000-00-00","2014Q2","Browsetype","BUY_SIDE-INSURANCE","DL_BACKOFFICE","REQUEST_DATA","","EXCHANGE","2 Kim Way","Santa Monica","California","United States",29828,"WESTERN_EUROPE","William Foster","dcastillo8@freewebs.com","1-(310)786-5582","Doris Castillo",918274,"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",""
+10,"0000-00-00","2014Q1","Skyba","SELL_SIDE-CAPITAL_MARKETS","DEDICATED_FEED","STORE_AS_REFERENCE_DATA","","THIRD_PARTY","96 Barby Circle","Columbus","Ohio","United States",84959,"LATIN_AMERICA_&_CARIBBEAN","Laura Cruz","ewallace9@google.ru","1-(614)252-4198","Eugene Wallace",124926,"Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",""
+11,"0000-00-00","2016Q2","Katz","BUY_SIDE-COMMERCIAL_BANK","DL_BACKOFFICE","STORE_AS_REFERENCE_DATA","","THIRD_PARTY","2963 Petterle Park","Brooklyn","New York","United States",47954,"ASIA_PACIFIC","Marie Richardson","wriveraa@nhs.uk","1-(718)543-3059","Walter Rivera",723700,"Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",""
+12,"0000-00-00","2016Q4","Browsecat","ACCOUNTING","OPENFIGI.COM-FUNDS","NA","","REGULATOR","25 Blackbird Street","Bradenton","Florida","United States",37605,"ASIA_PACIFIC","Christine Adams","wnelsonb@epa.gov","1-(941)602-1455","Willie Nelson",180062,"Phasellus in felis. Donec semper sapien a libero. Nam dui.",""
+13,"0000-00-00","2015Q2","Quimm","GOVERNMENT","TERMINAL_CLIENT","DISPLAY_ON_WEB_SITE","","EXCHANGE","951 Pleasure Lane","Washington","District of Columbia","United States",89855,"ASIA_PACIFIC","Joe Hart","mgonzalesc@japanpost.jp","1-(202)952-6144","Marie Gonzales",890075,"Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",""
+14,"0000-00-00","2014Q2","Oyoloo","SELL_SIDE-AGENCY_BROKER","OPENFIGI.COM-API_KEY","STORE_AS_REFERENCE_DATA","","THIRD_PARTY","14646 Transport Lane","Tucson","Arizona","United States",55541,"MIDDLE_EAST_&_AFRICA","James Alexander","tgonzalezd@skyrock.com","1-(520)432-8545","Timothy Gonzalez",953744,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",""
+15,"0000-00-00","2015Q3","Skaboo","SELL_SIDE-CAPITAL_MARKETS","OPENFIGI.COM-DERIVATIVES","AVAILABLE_TO_ALL_USERS","","OTHER","321 Lakewood Gardens Point","Memphis","Tennessee","United States",20809,"LATIN_AMERICA_&_CARIBBEAN","Matthew Mendoza","llewise@bing.com","1-(901)231-0795","Lawrence Lewis",570409,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",""
+16,"0000-00-00","2015Q3","Riffpath","TECHNOLOGY","SOR","AVAILABLE_TO_ALL_USERS","","OTHER","7 Grayhawk Lane","Atlanta","Georgia","United States",12933,"MIDDLE_EAST_&_AFRICA","Julie Foster","candersonf@jugem.jp","1-(404)446-6277","Carlos Anderson",266220,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",""
+17,"0000-00-00","2016Q3","Bluejam","CONSULTING","BPIPE/BPOD","STORE_AS_REFERENCE_DATA","","EXCHANGE","36 Manufacturers Court","Springfield","Massachusetts","United States",35854,"EASTERN_EUROPE","Virginia Mcdonald","jlaneg@wordpress.org","1-(413)841-9535","Jeffrey Lane",116463,"Phasellus in felis. Donec semper sapien a libero. Nam dui.",""
+18,"0000-00-00","2014Q4","Brainsphere","SELL_SIDE-AGENCY_BROKER","DEDICATED_FEED","AVAILABLE_TO_ALL_USERS","","REGULATOR","773 Badeau Terrace","Lubbock","Texas","United States",19834,"LATIN_AMERICA_&_CARIBBEAN","Denise Marshall","nrichardsh@acquirethisname.com","1-(806)929-5387","Nicole Richards",371805,"Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",""
+19,"0000-00-00","","Brightbean","ACCOUNTING","TERMINAL_CLIENT","AVAILABLE_TO_USERS_UPON_REQUEST","","EXCHANGE","1 Artisan Hill","Sterling","Virginia","United States",74434,"NORTH_AMERICA","Jennifer Mendoza","brogersi@scribd.com","1-(571)213-7185","Betty Rogers",861095,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",""
+20,"0000-00-00","2015Q4","Latz","OUTSOURCING","DL_PER_SECURITY","NA","","OTHER","5 Lerdahl Junction","Tacoma","Washington","United States",79929,"EASTERN_EUROPE","Ryan Allen","kmcdonaldj@issuu.com","1-(253)254-1228","Kelly Mcdonald",303514,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",""
+21,"0000-00-00","2014Q4","Eare","SELL_SIDE-INVESTMENT_BANKING","OPENFIGI.COM-FUNDS","MAP_CONTENT_FROM_MULTIPLE_VENDORS","","EXCHANGE","3314 Springs Park","New York City","New York","United States",11821,"ASIA_PACIFIC","Ronald Howell","dowensk@oracle.com","1-(718)855-3395","Daniel Owens",172627,"Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",""
+22,"0000-00-00","2016Q4","Jabbertype","SELL_SIDE-INTER-DEALER_BROKER","SOR","STORE_AS_REFERENCE_DATA","","TRUSTEE","7657 Fairview Crossing","Fort Worth","Texas","United States",46364,"LATIN_AMERICA_&_CARIBBEAN","Jane Russell","dscottl@comsenz.com","1-(817)331-7735","Doris Scott",726305,"Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",""
+23,"0000-00-00","2015Q2","Browsezoom","ACCOUNTING","BPIPE/BPOD","MAP_CONTENT_FROM_MULTIPLE_VENDORS","","REGULATOR","0133 Welch Street","Fort Wayne","Indiana","United States",73713,"ASIA_PACIFIC","Diane Brooks","kjacksonm@skyrock.com","1-(260)641-2895","Keith Jackson",766260,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",""
+24,"0000-00-00","2014Q4","Einti","SELL_SIDE-RETAIL_BROKER","DL_PER_SECURITY","REDISTRIBUTION_OF_FIGI","","EXCHANGE","085 Pierstorff Place","Houston","Texas","United States",17854,"NORTH_AMERICA","Rachel Riley","tkennedyn@cdc.gov","1-(713)276-0593","Timothy Kennedy",375352,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",""
+25,"0000-00-00","2016Q2","Quaxo","SELL_SIDE-REGIONAL_BANK","OPENFIGI.COM-API_KEY","STORE_AS_REFERENCE_DATA","","OTHER","9481 Redwing Terrace","Brooklyn","New York","United States",30778,"NOT_AVAILABLE","Mary Vasquez","jhansono@wufoo.com","1-(347)833-3971","Janice Hanson",650494,"Fusce consequat. Nulla nisl. Nunc nisl.",""
+26,"0000-00-00","","Zoomlounge","SELL_SIDE-INTER-DEALER_BROKER","TERMINAL_CLIENT","MAP_CONTENT_FROM_MULTIPLE_VENDORS","","REGULATOR","25 Evergreen Road","El Paso","Texas","United States",62871,"WESTERN_EUROPE","Amanda Ortiz","fcooperp@oracle.com","1-(915)518-9836","Fred Cooper",708441,"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",""
+27,"0000-00-00","2014Q2","Fanoodle","LEGAL","SOR","REDISTRIBUTION_OF_FIGI","","OTHER","2324 Dapin Court","Scottsdale","Arizona","United States",79727,"NOT_AVAILABLE","Antonio Jacobs","jharrisq@blogs.com","1-(602)737-0933","Joyce Harris",235598,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",""
+28,"0000-00-00","2014Q2","Rhynyx","BUY_SIDE-ASSET_MANAGER","DL_PER_SECURITY","REGULATION","","TRUSTEE","774 Independence Way","Austin","Texas","United States",82409,"MIDDLE_EAST_&_AFRICA","Anne Fuller","fpowellr@sina.com.cn","1-(512)852-4713","Fred Powell",267584,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",""
+29,"0000-00-00","2014Q4","Rhycero","SELL_SIDE-INVESTMENT_BANKING","DL_BACKOFFICE","REDISTRIBUTION_OF_FIGI","","EXCHANGE","035 Schurz Center","Arlington","Virginia","United States",71273,"WESTERN_EUROPE","Joe Lynch","jbradleys@tiny.cc","1-(571)514-4805","Jonathan Bradley",318102,"In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",""
+30,"0000-00-00","2016Q3","Kayveo","SELL_SIDE-AGENCY_BROKER","DEDICATED_FEED","REGULATION","","REGULATOR","12975 Rigney Road","Clearwater","Florida","United States",29790,"EASTERN_EUROPE","Brenda Parker","eryant@disqus.com","1-(727)610-2407","Eric Ryan",315870,"Sed ante. Vivamus tortor. Duis mattis egestas metus.",""
+31,"0000-00-00","2016Q3","Skinix","COMMODITY_MERCHANT","TERMINAL_CLIENT","DISPLAY_ON_WEB_SITE","","TRUSTEE","13555 Loeprich Terrace","Portland","Oregon","United States",30761,"EASTERN_EUROPE","Nicholas Taylor","frogersu@booking.com","1-(971)389-8852","Frances Rogers",351175,"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",""
+32,"0000-00-00","2015Q3","Snaptags","BUY_SIDE-ASSET_MANAGER","DEDICATED_FEED","REGULATION","","TRUSTEE","87057 Clemons Hill","Salt Lake City","Utah","United States",62717,"MIDDLE_EAST_&_AFRICA","Roy Matthews","cromerov@fda.gov","1-(801)237-9602","Cheryl Romero",135904,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",""
+33,"0000-00-00","2014Q4","Skilith","SELL_SIDE-AGENCY_BROKER","OPENFIGI.COM-DERIVATIVES","REDISTRIBUTION_OF_FIGI","","THIRD_PARTY","42 Nancy Plaza","Indianapolis","Indiana","United States",71810,"NOT_AVAILABLE","Katherine Reed","jwoodsw@buzzfeed.com","1-(317)707-4694","Jose Woods",334252,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",""
+34,"0000-00-00","2014Q4","Kanoodle","SELL_SIDE-INVESTMENT_BANKING","OPENFIGI.COM-DERIVATIVES","REGULATION","","OTHER","95903 Beilfuss Plaza","Fullerton","California","United States",28675,"NORTH_AMERICA","Donna Campbell","rmontgomeryx@macromedia.com","1-(714)112-2979","Rose Montgomery",224469,"Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",""
+35,"0000-00-00","2014Q1","Demimbu","SELL_SIDE-REGIONAL_BANK","OPENFIGI.COM-API_KEY","REQUEST_DATA","","OTHER","71 Maple Point","Las Cruces","New Mexico","United States",69337,"WESTERN_EUROPE","Donald Foster","sricey@i2i.jp","1-(505)288-1032","Susan Rice",943891,"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",""
+36,"0000-00-00","2015Q2","Oyonder","EDUCATION","DEDICATED_FEED","MGMT_OF_MULTIPLE_SECURITY_MASTERS","","TRUSTEE","0990 Superior Point","Monroe","Louisiana","United States",79360,"MIDDLE_EAST_&_AFRICA","Jacqueline Grant","ssimsz@xinhuanet.com","1-(318)508-0780","Shawn Sims",132250,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",""
+37,"0000-00-00","2015Q2","Fivespan","SELL_SIDE-BROKER-DEALER","OPENFIGI.COM-DERIVATIVES","MGMT_OF_MULTIPLE_SECURITY_MASTERS","","REGULATOR","996 Briar Crest Hill","Sacramento","California","United States",32159,"ASIA_PACIFIC","Daniel Stanley","smills10@paginegialle.it","1-(916)528-0833","Shawn Mills",738213,"Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",""
+38,"0000-00-00","2014Q2","Realcube","SELL_SIDE-BROKER-DEALER","DEDICATED_FEED","REGULATION","","TRUSTEE","85185 Blue Bill Park Place","Dearborn","Michigan","United States",79267,"ASIA_PACIFIC","Clarence Gonzalez","egarza11@thetimes.co.uk","1-(313)974-1585","Edward Garza",142333,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.",""
+39,"0000-00-00","2015Q1","Vipe","EDUCATION","BPIPE/BPOD","NA","","OTHER","9947 Eliot Drive","Harrisburg","Pennsylvania","United States",65302,"LATIN_AMERICA_&_CARIBBEAN","Kimberly Harper","asullivan12@myspace.com","1-(717)794-7278","Annie Sullivan",243066,"In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",""
+40,"0000-00-00","","Youspan","SELL_SIDE-INVESTMENT_BANKING","TERMINAL_CLIENT","REGULATION","","REGULATOR","750 Onsgard Street","Worcester","Massachusetts","United States",99226,"WESTERN_EUROPE","Kathy Bishop","hhayes13@nsw.gov.au","1-(508)617-0818","Helen Hayes",845656,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",""
+41,"0000-00-00","2016Q3","Plajo","BUY_SIDE-ASSET_MANAGER","OPENFIGI.COM-DERIVATIVES","NA","","REGULATOR","2 Mallory Point","Gainesville","Florida","United States",43797,"ASIA_PACIFIC","Richard Stone","kross14@independent.co.uk","1-(352)298-0173","Kathryn Ross",835632,"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",""
+42,"0000-00-00","2014Q4","Gigabox","BUY_SIDE-INSURANCE","OPENFIGI.COM-API_KEY","REQUEST_DATA","","TRUSTEE","18 Corscot Circle","Topeka","Kansas","United States",61098,"EASTERN_EUROPE","Pamela West","tknight15@spotify.com","1-(785)113-2500","Tammy Knight",459946,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",""
+43,"0000-00-00","2016Q4","Topiczoom","COMMODITY_MERCHANT","OPENFIGI.COM-FIXED_INCOME","DISPLAY_ON_WEB_SITE","","THIRD_PARTY","8650 Granby Trail","San Antonio","Texas","United States",79682,"MIDDLE_EAST_&_AFRICA","Willie Ward","amoreno16@trellian.com","1-(210)534-5464","Ann Moreno",299828,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",""
+44,"0000-00-00","2016Q2","Kamba","SELL_SIDE-INTER-DEALER_BROKER","OPENFIGI.COM-SEARCH_FUNCTIONALITY_ONLY","REQUEST_DATA","","OTHER","5 Pleasure Terrace","Greensboro","North Carolina","United States",85172,"NOT_AVAILABLE","Jason Harrison","tlee17@cdbaby.com","1-(336)719-0184","Theresa Lee",597221,"Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",""
+45,"0000-00-00","2015Q4","Viva","ACCOUNTING","OPENFIGI.COM-FUNDS","REQUEST_DATA","","THIRD_PARTY","5514 Katie Park","Glendale","California","United States",10375,"MIDDLE_EAST_&_AFRICA","Daniel Sims","ahunt18@imageshack.us","1-(818)254-8647","Arthur Hunt",842209,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",""
+46,"0000-00-00","2014Q4","Skilith","SELL_SIDE-INVESTMENT_BANKING","OPENFIGI.COM-SEARCH_FUNCTIONALITY_ONLY","NA","","EXCHANGE","67 East Trail","Houston","Texas","United States",78129,"WESTERN_EUROPE","Stephen Brown","knguyen19@mediafire.com","1-(713)134-0161","Kathy Nguyen",428223,"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",""
+47,"0000-00-00","2014Q4","Voonte","FUND_SERVICE_PROVIDER","OPENFIGI.COM-API_KEY","REGULATION","","REGULATOR","70 Bonner Way","Vancouver","Washington","United States",60538,"EASTERN_EUROPE","Victor Tucker","wwalker1a@wordpress.org","1-(360)471-7435","William Walker",661904,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.",""
+48,"0000-00-00","2015Q3","Bluezoom","CUSTODIAN","OPENFIGI.COM-SEARCH_FUNCTIONALITY_ONLY","MAP_CONTENT_FROM_MULTIPLE_VENDORS","","REGULATOR","5587 West Street","Cleveland","Ohio","United States",56075,"NORTH_AMERICA","Juan Fuller","lolson1b@pagesperso-orange.fr","1-(216)865-1030","Lawrence Olson",155653,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",""
+49,"0000-00-00","2016Q3","Kazio","ACCOUNTING","BPIPE/BPOD","DISPLAY_ON_WEB_SITE","","THIRD_PARTY","032 Knutson Street","Brooklyn","New York","United States",62857,"ASIA_PACIFIC","Maria Perkins","gbell1c@booking.com","1-(212)627-4698","George Bell",562680,"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",""
+50,"0000-00-00","2016Q3","Kare","OUTSOURCING","OPENFIGI.COM-API_KEY","REDISTRIBUTION_OF_FIGI","","OTHER","9 Carberry Terrace","Gadsden","Alabama","United States",52180,"EASTERN_EUROPE","Donna Wood","bwillis1d@google.co.jp","1-(256)709-9829","Brenda Willis",148105,"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",""
+51,"0000-00-00","2016Q3","Tavu","SELL_SIDE-REGIONAL_BANK","OPENFIGI.COM-SEARCH_FUNCTIONALITY_ONLY","REGULATION","","TRUSTEE","94031 Bay Road","Omaha","Nebraska","United States",44408,"WESTERN_EUROPE","Michelle Ruiz","rkelley1e@bigcartel.com","1-(402)412-9535","Robin Kelley",429028,"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",""
+52,"0000-00-00","2014Q1","Skilith","GOVERNMENT","TERMINAL_CLIENT","STORE_AS_REFERENCE_DATA","","REGULATOR","22 Straubel Avenue","San Jose","California","United States",40857,"NOT_AVAILABLE","Keith Little","lwilson1f@google.ru","1-(714)677-8907","Lillian Wilson",736864,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",""
+53,"0000-00-00","2014Q1","Riffwire","GOVERNMENT","OPENFIGI.COM-SEARCH_FUNCTIONALITY_ONLY","STORE_AS_REFERENCE_DATA","","EXCHANGE","3 Prentice Crossing","Washington","District of Columbia","United States",64860,"ASIA_PACIFIC","Annie Matthews","spayne1g@jiathis.com","1-(202)900-5739","Shirley Payne",775586,"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",""
+54,"0000-00-00","2016Q2","Meezzy","ACCOUNTING","OPENFIGI.COM-FIXED_INCOME","REDISTRIBUTION_OF_FIGI","","THIRD_PARTY","521 Huxley Hill","Las Vegas","Nevada","United States",21138,"NOT_AVAILABLE","Mary Howard","jford1h@intel.com","1-(702)247-8913","Jose Ford",632472,"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",""
+55,"0000-00-00","2016Q2","Gigabox","COMMODITY_MERCHANT","DL_PER_SECURITY","REDISTRIBUTION_OF_FIGI","","THIRD_PARTY","8 North Way","Huntsville","Texas","United States",79660,"EASTERN_EUROPE","Alice Sanders","eelliott1i@stanford.edu","1-(936)986-9982","Eugene Elliott",308218,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",""
+56,"0000-00-00","2016Q3","Gabcube","SELL_SIDE-AGENCY_BROKER","BPIPE/BPOD","DISPLAY_ON_WEB_SITE","","EXCHANGE","167 Lakewood Pass","Atlanta","Georgia","United States",63505,"ASIA_PACIFIC","Evelyn Henderson","dmyers1j@moonfruit.com","1-(404)588-9432","Donna Myers",234643,"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",""
+57,"0000-00-00","2016Q2","Zoonoodle","COMMODITY_MERCHANT","DL_PER_SECURITY","DISPLAY_ON_WEB_SITE","","THIRD_PARTY","673 Meadow Valley Lane","Columbus","Ohio","United States",18646,"NORTH_AMERICA","Joan Gilbert","jsanders1k@mapquest.com","1-(614)915-0651","Joan Sanders",161015,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",""
+58,"0000-00-00","2016Q2","Mycat","BUY_SIDE-COMMERCIAL_BANK","NA","REGULATION","","OTHER","22 Sycamore Junction","Saint Cloud","Minnesota","United States",16454,"LATIN_AMERICA_&_CARIBBEAN","James Cruz","tnguyen1l@ucsd.edu","1-(320)372-0348","Terry Nguyen",612048,"In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",""
+59,"0000-00-00","2014Q1","Vitz","SELL_SIDE-CAPITAL_MARKETS","DEDICATED_FEED","MAP_CONTENT_FROM_MULTIPLE_VENDORS","","REGULATOR","64926 Jackson Place","Fort Worth","Texas","United States",69440,"NORTH_AMERICA","Kimberly Mccoy","jwagner1m@webmd.com","1-(682)611-6788","John Wagner",965930,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",""
+60,"0000-00-00","2016Q3","Myworks","LEGAL","OPENFIGI.COM-API_KEY","REQUEST_DATA","","THIRD_PARTY","57184 Briar Crest Place","Pittsburgh","Pennsylvania","United States",33340,"EASTERN_EUROPE","Wayne Smith","crodriguez1n@infoseek.co.jp","1-(412)308-3545","Cheryl Rodriguez",128609,"Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.",""
+61,"0000-00-00","2016Q3","Skilith","FUND_SERVICE_PROVIDER","OPENFIGI.COM-FIXED_INCOME","MGMT_OF_MULTIPLE_SECURITY_MASTERS","","TRUSTEE","17789 Paget Court","Saint Petersburg","Florida","United States",55999,"EASTERN_EUROPE","Fred Gray","mgarza1o@blogs.com","1-(727)101-0843","Matthew Garza",138795,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",""
+62,"0000-00-00","2016Q3","Zoombox","SELL_SIDE-REGIONAL_BANK","OPENFIGI.COM-FIXED_INCOME","STORE_AS_REFERENCE_DATA","","EXCHANGE","19 Coolidge Street","Huntsville","Alabama","United States",67985,"LATIN_AMERICA_&_CARIBBEAN","Joan Hughes","tfields1p@sphinn.com","1-(256)511-1063","Timothy Fields",622911,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.",""
+63,"0000-00-00","2015Q4","Skinix","OUTSOURCING","DEDICATED_FEED","DISPLAY_ON_WEB_SITE","","THIRD_PARTY","0298 Fallview Road","Fayetteville","North Carolina","United States",82115,"MIDDLE_EAST_&_AFRICA","Marilyn Harrison","ctucker1q@si.edu","1-(910)587-5032","Clarence Tucker",415285,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",""
+64,"0000-00-00","2016Q2","Pixoboo","SELL_SIDE-PRIME_SERVICES","NA","REQUEST_DATA","","TRUSTEE","79134 Colorado Plaza","Elizabeth","New Jersey","United States",49230,"NOT_AVAILABLE","Nicole Roberts","jbishop1r@dailymail.co.uk","1-(908)196-0135","John Bishop",633980,"Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",""
+65,"0000-00-00","2015Q4","Jabbercube","ACCOUNTING","OPENFIGI.COM-SEARCH_FUNCTIONALITY_ONLY","STORE_AS_REFERENCE_DATA","","REGULATOR","638 Roxbury Lane","New York City","New York","United States",60545,"ASIA_PACIFIC","Laura Welch","koliver1s@wisc.edu","1-(646)825-7157","Kevin Oliver",734004,"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",""
+66,"0000-00-00","2015Q2","Kanoodle","SELL_SIDE-BROKER-DEALER","BPIPE/BPOD","MAP_CONTENT_FROM_MULTIPLE_VENDORS","","TRUSTEE","05434 Veith Park","Washington","District of Columbia","United States",16907,"EASTERN_EUROPE","Rose Lane","awallace1t@networksolutions.com","1-(202)380-9720","Andrea Wallace",863791,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",""
+67,"0000-00-00","2014Q1","Abatz","LEGAL","BPIPE/BPOD","AVAILABLE_TO_ALL_USERS","","OTHER","384 Myrtle Place","Fort Worth","Texas","United States",17686,"WESTERN_EUROPE","Douglas Reed","hhawkins1u@berkeley.edu","1-(682)136-6778","Harold Hawkins",861749,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",""
+68,"0000-00-00","2016Q3","Devbug","BUY_SIDE-HEDGE_FUND","SOR","REDISTRIBUTION_OF_FIGI","","OTHER","7 Elgar Center","Charleston","West Virginia","United States",71159,"MIDDLE_EAST_&_AFRICA","Laura West","jfuller1v@patch.com","1-(304)179-2041","Judy Fuller",580972,"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",""
+69,"0000-00-00","2016Q3","Oodoo","OUTSOURCING","NA","DISPLAY_ON_WEB_SITE","","EXCHANGE","4746 Debra Avenue","Terre Haute","Indiana","United States",69763,"NOT_AVAILABLE","Phyllis Little","pford1w@dyndns.org","1-(812)130-7977","Pamela Ford",886972,"Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",""
+70,"0000-00-00","2014Q1","Flashset","BUY_SIDE-COMMERCIAL_BANK","TERMINAL_CLIENT","MAP_CONTENT_FROM_MULTIPLE_VENDORS","","REGULATOR","74 Messerschmidt Alley","Glendale","Arizona","United States",79832,"MIDDLE_EAST_&_AFRICA","Julia Ford","hcarpenter1x@blinklist.com","1-(602)315-4466","Henry Carpenter",656981,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",""
+71,"0000-00-00","2014Q1","Oyope","SELL_SIDE-RETAIL_BROKER","OPENFIGI.COM-API_KEY","DISPLAY_ON_WEB_SITE","","REGULATOR","32448 Dawn Place","Los Angeles","California","United States",52706,"NOT_AVAILABLE","Paul Freeman","ggeorge1y@sitemeter.com","1-(323)778-7031","George George",323113,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.",""
+72,"0000-00-00","2016Q4","Reallinks","BUY_SIDE-ASSET_MANAGER","OPENFIGI.COM-API_KEY","REQUEST_DATA","","OTHER","11 Mesta Center","Pensacola","Florida","United States",85418,"NORTH_AMERICA","Michelle Stone","mhughes1z@issuu.com","1-(850)887-0801","Michael Hughes",561198,"Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",""
+73,"0000-00-00","","Quamba","SELL_SIDE-RESEARCH","OPENFIGI.COM-FUNDS","MAP_CONTENT_FROM_MULTIPLE_VENDORS","","REGULATOR","1 4th Trail","Norfolk","Virginia","United States",24472,"ASIA_PACIFIC","Jerry Griffin","edean20@skype.com","1-(757)702-8613","Emily Dean",658636,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",""
+74,"0000-00-00","2014Q2","Midel","CONSULTING","BPIPE/BPOD","REQUEST_DATA","","OTHER","49869 Rowland Terrace","Kansas City","Missouri","United States",44933,"EASTERN_EUROPE","Betty Chapman","jsnyder21@unblog.fr","1-(816)884-4530","Jean Snyder",230232,"In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",""
+75,"0000-00-00","","Tagtune","FUND_SERVICE_PROVIDER","DL_PER_SECURITY","NA","","THIRD_PARTY","96202 Russell Hill","Raleigh","North Carolina","United States",86680,"LATIN_AMERICA_&_CARIBBEAN","Cynthia Brown","nhudson22@people.com.cn","1-(919)185-7806","Nicholas Hudson",842473,"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",""
+76,"0000-00-00","2014Q2","Livetube","SELL_SIDE-RESEARCH","TERMINAL_CLIENT","REQUEST_DATA","","OTHER","081 Ilene Street","Mobile","Alabama","United States",90015,"WESTERN_EUROPE","Roy Day","afoster23@slashdot.org","1-(251)760-0571","Amy Foster",797008,"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",""
+77,"0000-00-00","2015Q4","Vinder","SELL_SIDE-RESEARCH","NA","NA","","EXCHANGE","2 Kensington Alley","Hialeah","Florida","United States",22048,"EASTERN_EUROPE","Sara Simmons","mreyes24@cmu.edu","1-(305)812-2894","Martin Reyes",225483,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",""
+78,"0000-00-00","2015Q3","Quire","EDUCATION","OPENFIGI.COM-DERIVATIVES","MAP_CONTENT_FROM_MULTIPLE_VENDORS","","EXCHANGE","27374 Columbus Junction","Dayton","Ohio","United States",11643,"ASIA_PACIFIC","Melissa Kelly","hlittle25@twitter.com","1-(937)240-4309","Henry Little",507395,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",""
+79,"0000-00-00","2015Q2","Voonte","BUY_SIDE-COMMERCIAL_BANK","SOR","AVAILABLE_TO_USERS_UPON_REQUEST","","EXCHANGE","338 Meadow Ridge Drive","Kansas City","Missouri","United States",64612,"LATIN_AMERICA_&_CARIBBEAN","Jeremy Bell","jturner26@timesonline.co.uk","1-(816)305-5300","Jeremy Turner",702344,"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",""
+80,"0000-00-00","2014Q4","Jamia","CONSULTING","OPENFIGI.COM-FUNDS","REDISTRIBUTION_OF_FIGI","","REGULATOR","65597 Riverside Park","Houston","Texas","United States",94977,"MIDDLE_EAST_&_AFRICA","Andrew Hansen","tramirez27@oakley.com","1-(713)841-6798","Tammy Ramirez",344590,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",""
+81,"0000-00-00","2014Q2","Skiptube","BUY_SIDE-COMMERCIAL_BANK","BPIPE/BPOD","AVAILABLE_TO_ALL_USERS","","OTHER","295 David Parkway","Jamaica","New York","United States",91487,"NOT_AVAILABLE","Michelle Crawford","jlittle28@uol.com.br","1-(212)496-3075","Jane Little",153257,"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",""
+82,"0000-00-00","2015Q2","Skiptube","ACCOUNTING","OPENFIGI.COM-FIXED_INCOME","AVAILABLE_TO_ALL_USERS","","REGULATOR","0 Springs Pass","Shreveport","Louisiana","United States",98712,"NORTH_AMERICA","Heather Crawford","bwatkins29@exblog.jp","1-(318)156-7400","Brenda Watkins",116483,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",""
+83,"0000-00-00","2015Q4","Realmix","BUY_SIDE-CORPORATION","OPENFIGI.COM-FUNDS","NA","","EXCHANGE","5894 Commercial Center","Cleveland","Ohio","United States",42364,"ASIA_PACIFIC","Craig Nichols","kwilliams2a@zimbio.com","1-(440)330-6586","Kathy Williams",464057,"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",""
+84,"0000-00-00","2016Q1","Mudo","GOVERNMENT","OPENFIGI.COM-FUNDS","STORE_AS_REFERENCE_DATA","","TRUSTEE","51 Havey Lane","Sioux Falls","South Dakota","United States",62617,"ASIA_PACIFIC","Diane Mitchell","solson2b@weebly.com","1-(605)135-7627","Susan Olson",665553,"Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",""
+85,"0000-00-00","2016Q4","Jetpulse","SELL_SIDE-CAPITAL_MARKETS","OPENFIGI.COM-SEARCH_FUNCTIONALITY_ONLY","STORE_AS_REFERENCE_DATA","","THIRD_PARTY","958 International Crossing","Scottsdale","Arizona","United States",26497,"NORTH_AMERICA","Howard Ruiz","mowens2c@tripadvisor.com","1-(602)184-6976","Melissa Owens",896637,"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",""
+86,"0000-00-00","2016Q2","Jabbersphere","SELL_SIDE-INVESTMENT_BANKING","DL_PER_SECURITY","REGULATION","","THIRD_PARTY","68 Debra Road","Washington","District of Columbia","United States",35466,"LATIN_AMERICA_&_CARIBBEAN","Elizabeth Bailey","bdean2d@wired.com","1-(202)178-8446","Bonnie Dean",715771,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",""
+87,"0000-00-00","2016Q3","Abatz","BUY_SIDE-CORPORATION","DEDICATED_FEED","AVAILABLE_TO_USERS_UPON_REQUEST","","OTHER","17 Summerview Drive","Falls Church","Virginia","United States",35978,"NOT_AVAILABLE","Frances Gardner","pgarrett2e@nifty.com","1-(571)884-7020","Patricia Garrett",225099,"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",""
+88,"0000-00-00","2014Q4","Layo","SELL_SIDE-RESEARCH","OPENFIGI.COM-FIXED_INCOME","DISPLAY_ON_WEB_SITE","","OTHER","897 Kennedy Trail","Washington","District of Columbia","United States",40237,"NORTH_AMERICA","Henry Burns","bknight2f@behance.net","1-(202)910-0922","Barbara Knight",150184,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.",""
+89,"0000-00-00","2016Q4","Photolist","BUY_SIDE-HEDGE_FUND","TERMINAL_CLIENT","AVAILABLE_TO_ALL_USERS","","TRUSTEE","05541 Superior Parkway","Knoxville","Tennessee","United States",93189,"WESTERN_EUROPE","Anthony Schmidt","pgray2g@ow.ly","1-(865)385-3420","Patricia Gray",332055,"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",""
+90,"0000-00-00","2015Q2","Podcat","ACCOUNTING","OPENFIGI.COM-API_KEY","DISPLAY_ON_WEB_SITE","","THIRD_PARTY","13743 Oakridge Crossing","Decatur","Illinois","United States",53205,"NORTH_AMERICA","Johnny Graham","srogers2h@census.gov","1-(217)240-4115","Steve Rogers",797902,"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",""
+91,"0000-00-00","2016Q4","Pixoboo","CUSTODIAN","TERMINAL_CLIENT","MAP_CONTENT_FROM_MULTIPLE_VENDORS","","REGULATOR","60014 Forest Plaza","El Paso","Texas","United States",23135,"WESTERN_EUROPE","Nancy Rice","apierce2i@usgs.gov","1-(915)141-7291","Ann Pierce",923393,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",""
+92,"0000-00-00","2016Q2","Zoomlounge","BUY_SIDE-CORPORATION","OPENFIGI.COM-FUNDS","REGULATION","","THIRD_PARTY","074 Mayfield Pass","Evanston","Illinois","United States",78628,"NORTH_AMERICA","Frank Morgan","dsims2j@over-blog.com","1-(847)839-7289","Doris Sims",364021,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",""
+93,"0000-00-00","2015Q2","Jayo","RATING_AGENCY","OPENFIGI.COM-SEARCH_FUNCTIONALITY_ONLY","REDISTRIBUTION_OF_FIGI","","THIRD_PARTY","0240 Algoma Drive","Gadsden","Alabama","United States",97541,"WESTERN_EUROPE","Alice Jackson","mking2k@cnn.com","1-(256)261-0334","Martin King",372414,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",""
+94,"0000-00-00","2016Q2","Wikido","SELL_SIDE-REGIONAL_BANK","SOR","AVAILABLE_TO_USERS_UPON_REQUEST","","REGULATOR","5216 Pepper Wood Circle","Sioux City","Iowa","United States",89768,"LATIN_AMERICA_&_CARIBBEAN","Heather Reynolds","nwoods2l@mtv.com","1-(712)352-9567","Norma Woods",351656,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",""
+95,"0000-00-00","2015Q3","Gevee","SELL_SIDE-BROKER-DEALER","NA","REQUEST_DATA","","THIRD_PARTY","97304 Pawling Avenue","Moreno Valley","California","United States",43129,"NORTH_AMERICA","Terry Ortiz","sdunn2m@live.com","1-(951)163-9230","Sarah Dunn",592208,"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",""
+96,"0000-00-00","2015Q3","Wikizz","BUY_SIDE-HEDGE_FUND","DEDICATED_FEED","AVAILABLE_TO_USERS_UPON_REQUEST","","THIRD_PARTY","4744 Springview Parkway","Gainesville","Georgia","United States",11087,"MIDDLE_EAST_&_AFRICA","Carolyn Allen","cjohnston2n@youtube.com","1-(404)556-6236","Craig Johnston",104997,"Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.",""
+97,"0000-00-00","2016Q3","Wikizz","SELL_SIDE-PRIME_SERVICES","OPENFIGI.COM-FIXED_INCOME","MGMT_OF_MULTIPLE_SECURITY_MASTERS","","EXCHANGE","267 Columbus Terrace","Killeen","Texas","United States",85438,"EASTERN_EUROPE","Clarence Willis","dperkins2o@umich.edu","1-(254)974-7499","David Perkins",850701,"Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",""
+98,"0000-00-00","2015Q3","Browsebug","EDUCATION","OPENFIGI.COM-DERIVATIVES","NA","","OTHER","20853 Melrose Center","Savannah","Georgia","United States",58109,"MIDDLE_EAST_&_AFRICA","Martin Palmer","erodriguez2p@cargocollective.com","1-(912)960-8854","Emily Rodriguez",966656,"Fusce consequat. Nulla nisl. Nunc nisl.",""
+99,"0000-00-00","2015Q1","Wikivu","COMMODITY_MERCHANT","OPENFIGI.COM-FUNDS","MAP_CONTENT_FROM_MULTIPLE_VENDORS","","TRUSTEE","3881 Glendale Street","Newport Beach","California","United States",66509,"EASTERN_EUROPE","Christina Bradley","bmitchell2q@tiny.cc","1-(714)915-1943","Brenda Mitchell",874856,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",""
+100,"0000-00-00","2016Q2","Quatz","BUY_SIDE-ASSET_MANAGER","OPENFIGI.COM-API_KEY","DISPLAY_ON_WEB_SITE","","THIRD_PARTY","14567 Valley Edge Point","Lexington","Kentucky","United States",15150,"ASIA_PACIFIC","Juan Franklin","dhowell2r@jimdo.com","1-(859)844-7797","Daniel Howell",604785,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",""
+101,"0000-00-00","2014Q2","Flashspan","CONSULTING","SOR","STORE_AS_REFERENCE_DATA","","OTHER","0 Stuart Park","Houston","Texas","United States",35479,"ASIA_PACIFIC","Emily Warren","shall2s@washingtonpost.com","1-(713)282-6757","Sara Hall",665699,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",""
+102,"0000-00-00","2016Q1","Dynazzy","SELL_SIDE-REGIONAL_BANK","DL_PER_SECURITY","DISPLAY_ON_WEB_SITE","","TRUSTEE","363 Sachtjen Alley","Des Moines","Iowa","United States",82128,"EASTERN_EUROPE","Cheryl Wright","mfernandez2t@cargocollective.com","1-(515)418-7032","Maria Fernandez",661733,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",""
+103,"0000-00-00","2016Q2","Realbridge","SELL_SIDE-CAPITAL_MARKETS","OPENFIGI.COM-FUNDS","REQUEST_DATA","","EXCHANGE","8143 Maryland Trail","San Antonio","Texas","United States",30063,"LATIN_AMERICA_&_CARIBBEAN","Bobby Payne","jhoward2u@go.com","1-(210)510-3080","John Howard",900129,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",""
+104,"0000-00-00","2016Q3","Myworks","FUND_SERVICE_PROVIDER","OPENFIGI.COM-DERIVATIVES","AVAILABLE_TO_USERS_UPON_REQUEST","","REGULATOR","4 Di Loreto Point","Pittsburgh","Pennsylvania","United States",46335,"WESTERN_EUROPE","Shirley Black","rpalmer2v@rakuten.co.jp","1-(412)448-0242","Ruth Palmer",840671,"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",""
+105,"0000-00-00","2014Q4","Topicware","BUY_SIDE-ASSET_MANAGER","OPENFIGI.COM-API_KEY","NA","","EXCHANGE","82259 Paget Junction","Brooklyn","New York","United States",83567,"NORTH_AMERICA","Lisa Ramirez","rholmes2w@tamu.edu","1-(347)402-5781","Ralph Holmes",785534,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",""
+106,"0000-00-00","2015Q4","Meemm","SELL_SIDE-AGENCY_BROKER","DL_BACKOFFICE","AVAILABLE_TO_USERS_UPON_REQUEST","","REGULATOR","68 Golf Circle","Tucson","Arizona","United States",25278,"EASTERN_EUROPE","Janice Ford","rgeorge2x@ucla.edu","1-(520)963-3422","Rachel George",687294,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.",""
+107,"0000-00-00","2015Q4","Skipfire","RATING_AGENCY","OPENFIGI.COM-API_KEY","REGULATION","","THIRD_PARTY","3613 Quincy Point","Baton Rouge","Louisiana","United States",85577,"WESTERN_EUROPE","Ashley Owens","jwalker2y@un.org","1-(225)627-4890","Jimmy Walker",247756,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",""
+108,"0000-00-00","2015Q4","Trunyx","SELL_SIDE-PRIME_SERVICES","OPENFIGI.COM-FIXED_INCOME","STORE_AS_REFERENCE_DATA","","OTHER","71657 Main Lane","Aurora","Colorado","United States",49270,"ASIA_PACIFIC","Brenda Hansen","aramirez2z@angelfire.com","1-(303)881-2839","Andrea Ramirez",983736,"Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",""
+109,"0000-00-00","2014Q2","Quaxo","SELL_SIDE-PRIME_SERVICES","BPIPE/BPOD","AVAILABLE_TO_ALL_USERS","","EXCHANGE","4985 Tennessee Crossing","Clearwater","Florida","United States",78072,"NOT_AVAILABLE","Emily Stanley","bjohnson30@adobe.com","1-(727)238-3921","Beverly Johnson",966659,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",""
+110,"0000-00-00","2016Q2","Leenti","GOVERNMENT","OPENFIGI.COM-DERIVATIVES","DISPLAY_ON_WEB_SITE","","THIRD_PARTY","8261 5th Trail","Huntington","West Virginia","United States",31784,"MIDDLE_EAST_&_AFRICA","Clarence Miller","dfields31@youtube.com","1-(304)516-9858","Diane Fields",992728,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",""
+111,"0000-00-00","2016Q1","Zoombeat","SELL_SIDE-INTER-DEALER_BROKER","OPENFIGI.COM-DERIVATIVES","NA","","REGULATOR","66485 Calypso Plaza","Montpelier","Vermont","United States",50960,"MIDDLE_EAST_&_AFRICA","Lawrence Schmidt","bsnyder32@w3.org","1-(802)806-4222","Brenda Snyder",921426,"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",""
+112,"0000-00-00","2015Q2","Brainlounge","SELL_SIDE-PRIME_SERVICES","DL_BACKOFFICE","DISPLAY_ON_WEB_SITE","","THIRD_PARTY","911 Lighthouse Bay Plaza","Los Angeles","California","United States",11398,"MIDDLE_EAST_&_AFRICA","Carl Sanders","lwarren33@instagram.com","1-(213)680-1665","Laura Warren",371733,"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",""
+113,"0000-00-00","2014Q1","Meemm","BUY_SIDE-ASSET_MANAGER","OPENFIGI.COM-API_KEY","NA","","EXCHANGE","784 Kropf Hill","Philadelphia","Pennsylvania","United States",35820,"MIDDLE_EAST_&_AFRICA","Nicole Jacobs","jparker34@studiopress.com","1-(215)300-9331","Jacqueline Parker",690690,"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",""
+114,"0000-00-00","2016Q3","Agivu","OUTSOURCING","OPENFIGI.COM-FUNDS","NA","","REGULATOR","317 Oxford Alley","Reston","Virginia","United States",83476,"EASTERN_EUROPE","Ruby Moreno","pwarren35@imdb.com","1-(703)407-8265","Phillip Warren",311371,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.",""
+115,"0000-00-00","2014Q2","Fatz","EDUCATION","TERMINAL_CLIENT","REGULATION","","TRUSTEE","15992 American Ash Way","Des Moines","Iowa","United States",22907,"NORTH_AMERICA","Ann Lawson","rferguson36@seesaa.net","1-(641)458-6015","Rebecca Ferguson",641042,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",""
